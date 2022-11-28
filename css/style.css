@@ -1,19 +1,39 @@
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
 
-
-table {
-border: 10px solid blue;
-margin: 10px;
+ section:first-child h4 {
+    color: blue
   }
 
-      td:nth-child(even) {
-       border: solid red 5px
-      }
+  section:nth-child(2) {
+    border-bottom: solid red 5px;
 
-      td:nth-child(odd) {
-        border: solid yellow 5px;
-      }
+  }
 
-      td:nth-child(2) table>tr>td>ligne9{
-        color: red 
-    
-      }
+
+  section:nth-child(3) ul, 
+  section:nth-child(3) h3 {
+color: red;
+  }
+
+
+  section:nth-child(4) ul>li>a {
+    font-size: 25px;
+
+  }
+
+  section:nth-child(5) h3+span {
+
+color: blue;
+  }
+
+  section:nth-child(6) img {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  section:nth-child(7):hover p { 
+    color: green;
+}
