@@ -1,0 +1,19 @@
+
+
+table {
+border: 10px solid blue;
+margin: 10px;
+  }
+
+      td:nth-child(even) {
+       border: solid red 5px
+      }
+
+      td:nth-child(odd) {
+        border: solid yellow 5px;
+      }
+
+      td:nth-child(2) table>tr>td>ligne9{
+        color: red 
+    
+      }
